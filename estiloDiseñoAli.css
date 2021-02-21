@@ -1,0 +1,39 @@
+.content{
+    width: auto;
+}
+
+#primer-fila{
+    
+}
+
+.img{
+    position: relative;        
+}
+
+#segunda-fila{
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+
+.primer-columna2{
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: static;
+    width: 45%;
+    height: auto;
+    border: rgb(255, 0, 0);
+}
+
+.segunda-columna2{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: static;
+    float: left;
+    width: 45%;
+    height: auto;
+    border: rgb(255, 0, 0);
+}

@@ -9,12 +9,15 @@ body{
     background-color: #ffffff;
 }
 
-header{
-    margin-left: 200px;
+.barraOpciones{
+    margin-left: 10vh;
     background-size: cover;
     background-position: center;
     background-color: white;
+    flex-direction: row;
 }
+
+
 /*  navegacion   */
 nav{
     background-color: white;
@@ -40,13 +43,27 @@ nav{
     display: inline;
     position: absolute;
     margin-left: 10px;
-   /* background-color: #346BFF;*/
+    background-color: #346BFF;
+    flex-direction: row;
 }
 
 .primer-columna{
     background-color: white;
     float: left;
     display: flexbox;
+}
+
+.primer-fila{
+    flex-direction: row;
+}
+
+.primer-fila a{
+    color: white;
+}
+
+.primer-fila a:hover{
+    background-color: gold;
+    transition: all 0.3s;
 }
 
 article{
@@ -65,23 +82,32 @@ article{
     display: inline-block;
 }
 
+.containerImagenes{
+    display: inline-flex;
+    flex-direction: row;
+}
+
 .contenedorImg{
     margin: auto;
     margin-left: 25px;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*     FINAL DE PAGINA     */
 
 #tercerFila{
-    position:fixed;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
     left: 300px;
     bottom: 0px;
     clear: both;
 }
 
-footer{
-    
+footer{   
 	height: 50px;
 	text-align: center;
 	padding-top: 15px;

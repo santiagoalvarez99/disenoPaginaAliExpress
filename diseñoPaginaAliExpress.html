@@ -5,13 +5,15 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="AliExpress" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DiseñoAliExpress</title>
 
 </head>
-
 <body>
     <header>
+        <img src="https://ae01.alicdn.com/kf/Heb885d5180624f34a17c929f54f3f7115.png_.webp" alt="50px">
+    </header>
+    <div class="barraOpciones" id="barra">
         <select name="Sell on AliExpress" id="vender">
             <option value="loginVendedor">Seller Log In</option>
             <option value="loginVendedorChino">品牌出海 首选平台</option>
@@ -35,7 +37,7 @@
             <option value="misCupones">My Coupons</option>
             <option value="invitacion">Invite Friends</option>
         </select>
-    </header>
+    </div>
     <nav class="fila" id="primerFila">
         <span>
             <div class="columna" id="primerColumna">
@@ -51,7 +53,7 @@
             </div>
         </span>
     </nav>
-    <div class="fila" id="segundaFila" style="background-color: #346BFF;">
+    <div class="fila" id="segundaFila">
         <div class="primer-columna">
             <article>
                 <section>
@@ -91,26 +93,33 @@
                     <p>AliExpress Official Ranking</p>
                     <br></br>
                     <a href="">View More</a>
-                    <div class="contenedorImg" id="conteinerImg">
-                        <img src="Camisa-vaquera-ajustada-para-hombre-Rebeca-de-manga-larga-informal-para-primavera-y-oto-o-2020.jpg_q50.jpg" alt="100px" width="100px">
-                        <p>Camisas</p>
-                        <img src="problemas-con-pendrives-1.jpg" alt="160px" width="160px">
-                        <p>Articulos Tecnologicos</p>
-                        <img src="cadena-cubana-de-oro-14k.jpg" alt="100px" width="100px">
-                        <p>Joyeria</p>
-                        <img src="luces-led.jpg" alt="100px" width="100px">
-                        <p>Accesorios para Autos</p>
+                    <div class="containerImagenes">
+                        <div class="contenedorImg" id="conteinerImgCamisa">
+                            <img src="Camisa-vaquera-ajustada-para-hombre-Rebeca-de-manga-larga-informal-para-primavera-y-oto-o-2020.jpg_q50.jpg" alt="100px" width="100px">
+                            <p>Camisas</p>
+                        </div>
+                        <div class="contenedorImg" id="conteinerImgPen">
+                            <img src="problemas-con-pendrives-1.jpg" alt="160px" width="160px">
+                            <p>Articulos Tecnologicos</p>
+                        </div>
+                         <div class="contenedorImg" id="conteinerImgCadena">
+                            <img src="cadena-cubana-de-oro-14k.jpg" alt="100px" width="100px">
+                            <p>Joyeria</p>
+                        </div>
+                        <div class="contenedorImg" id="conteinerImgLuces">
+                            <img src="luces-led.jpg" alt="100px" width="100px">
+                            <p>Accesorios para Autos</p>
+                        </div>
                     </div>
-                    
                 </div>
             </aside> 
         </div>
     </div>
-    <div class="fila" id="tercerFila" >
+   <!--<div class="fila" id="tercerFila" >
         <footer>
             <p>Diseño de AliExpress</p> 
         </footer>
-    </div>
+    </div>--> 
     
 </body>
 </html>
